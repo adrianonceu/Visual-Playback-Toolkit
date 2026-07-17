@@ -4,10 +4,12 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Visual Playback Toolkit</title>
+
+    <meta name="description"
+          content="Offline toolkit for visual playback, LED walls and video production.">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -18,157 +20,249 @@
 
 <body>
 
-<div class="container">
+    <div class="app">
 
-    <header>
+        <div class="container">
 
-        <h1>Visual Playback Toolkit</h1>
+            <!-- ======================================================
+                 HEADER
+            ======================================================= -->
 
-    </header>
+            <header>
 
-    <nav class="tabs">
-
-        <button class="tab active"
-                data-target="frame-rate">
-
-            🎞 Frame Rate
-
-        </button>
-
-        <button class="tab"
-                data-target="aspect-ratio">
-
-            📐 Aspect Ratio
-
-        </button>
-
-        <button class="tab"
-                data-target="resolution">
-
-            🖥 Resolution
-
-        </button>
-
-        <button class="tab"
-                data-target="timecode">
-
-            ⏱ Timecode
-
-        </button>
-
-        <button class="tab"
-                data-target="led-wall">
-
-            🧱 LED Wall
-
-        </button>
-
-    </nav>
-
-    <main>
-
-        <section id="frame-rate"
-                 class="tool active">
-
-            <div class="card">
-
-                <h2>🎞 Frame Rate</h2>
+                <h1>Visual Playback Toolkit</h1>
 
                 <p>
-                    Module coming soon.
+                    Professional utilities for visual playback
                 </p>
 
-            </div>
+            </header>
 
-        </section>
 
-        <section id="aspect-ratio"
-                 class="tool">
+            <!-- ======================================================
+                 NAVIGATION
+            ======================================================= -->
 
-            <div class="card">
+            <nav
+                class="tabs"
+                aria-label="Toolkit Navigation">
 
-                <h2>📐 Aspect Ratio</h2>
+                <button
+                    class="tab active"
+                    data-tool="frame-rate">
 
-                <p>
-                    Module coming soon.
-                </p>
+                    <span class="icon">🎞</span>
+                    <span>Frame Rate</span>
 
-            </div>
+                </button>
 
-        </section>
+                <button
+                    class="tab"
+                    data-tool="aspect-ratio">
 
-        <section id="resolution"
-                 class="tool">
+                    <span class="icon">📐</span>
+                    <span>Aspect Ratio</span>
 
-            <div class="card">
+                </button>
 
-                <h2>🖥 Resolution</h2>
+                <button
+                    class="tab"
+                    data-tool="resolution">
 
-                <p>
-                    Module coming soon.
-                </p>
+                    <span class="icon">🖥</span>
+                    <span>Resolution</span>
 
-            </div>
+                </button>
 
-        </section>
+                <button
+                    class="tab"
+                    data-tool="timecode">
 
-        <section id="timecode"
-                 class="tool">
+                    <span class="icon">⏱</span>
+                    <span>Timecode</span>
 
-            <div class="card">
+                </button>
 
-                <h2>⏱ Timecode</h2>
+                <button
+                    class="tab"
+                    data-tool="led-wall">
 
-                <p>
-                    Module coming soon.
-                </p>
+                    <span class="icon">🧱</span>
+                    <span>LED Wall</span>
 
-            </div>
+                </button>
 
-        </section>
+            </nav>
 
-        <section id="led-wall"
-                 class="tool">
 
-            <div class="card">
+            <!-- ======================================================
+                 WORKSPACE
+            ======================================================= -->
 
-                <h2>🧱 LED Wall</h2>
+            <main id="workspace">
 
-                <p>
-                    Module coming soon.
-                </p>
+                <!-- =========================
+                     FRAME RATE
+                ========================== -->
 
-            </div>
+                <section
+                    id="frame-rate"
+                    class="tool active"
+                    aria-labelledby="frame-rate-title">
 
-        </section>
+                    <div class="card">
 
-    </main>
+                        <h2
+                            id="frame-rate-title"
+                            class="section-title">
+
+                            🎞 Frame Rate
+
+                        </h2>
+
+                        <p>
+                            Coming soon...
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     ASPECT RATIO
+                ========================== -->
+
+                <section
+                    id="aspect-ratio"
+                    class="tool"
+                    aria-labelledby="aspect-ratio-title">
+
+                    <div class="card">
+
+                        <h2
+                            id="aspect-ratio-title"
+                            class="section-title">
+
+                            📐 Aspect Ratio
+
+                        </h2>
+
+                        <p>
+                            Coming soon...
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     RESOLUTION
+                ========================== -->
+
+                <section
+                    id="resolution"
+                    class="tool"
+                    aria-labelledby="resolution-title">
+
+                    <div class="card">
+
+                        <h2
+                            id="resolution-title"
+                            class="section-title">
+
+                            🖥 Resolution
+
+                        </h2>
+
+                        <p>
+                            Coming soon...
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     TIMECODE
+                ========================== -->
+
+                <section
+                    id="timecode"
+                    class="tool"
+                    aria-labelledby="timecode-title">
+
+                    <div class="card">
+
+                        <h2
+                            id="timecode-title"
+                            class="section-title">
+
+                            ⏱ Timecode
+
+                        </h2>
+
+                        <p>
+                            Coming soon...
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- =========================
+                     LED WALL
+                ========================== -->
+
+                <section
+                    id="led-wall"
+                    class="tool"
+                    aria-labelledby="led-wall-title">
+
+                    <div class="card">
+
+                        <h2
+                            id="led-wall-title"
+                            class="section-title">
+
+                            🧱 LED Wall
+
+                        </h2>
+
+                        <p>
+                            Coming soon...
+                        </p>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         FOOTER
+    ======================================================= -->
 
     <footer>
 
-        <p>
+        <p>Visual Playback Toolkit • v0.1.0</p>
 
-            Visual Playback Toolkit • v0.1.0
+        <p>Designed &amp; Developed by Adrian Berdejo</p>
 
-        </p>
-
-        <p>
-
-            Designed & Developed by Adrian Berdejo
-
-        </p>
-
-        <p>
-
-            Built with ChatGPT by OpenAI
-
-        </p>
+        <p>Built with ChatGPT by OpenAI</p>
 
     </footer>
 
-</div>
 
-<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
