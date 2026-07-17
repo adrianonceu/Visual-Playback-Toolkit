@@ -1,0 +1,96 @@
+/* ==========================================
+   RESPONSIVE
+   Visual Playback Toolkit
+   ========================================== */
+
+
+/* ==========================================
+   TABLETS
+   ========================================== */
+
+@media (max-width:1024px){
+
+    .container{
+
+        padding:var(--space-4);
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+   ========================================== */
+
+@media (max-width:768px){
+
+    .container{
+
+        padding:var(--space-3);
+
+    }
+
+
+    header h1{
+
+        font-size:1.6rem;
+
+    }
+
+
+    .tabs{
+
+        overflow-x:auto;
+
+        white-space:nowrap;
+
+        scrollbar-width:none;
+
+    }
+
+    .tabs::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+
+    .grid-2{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .card{
+
+        max-width:100%;
+
+        padding:var(--space-3);
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL PHONES
+   ========================================== */
+
+@media (max-width:480px){
+
+    .container{
+
+        padding:var(--space-2);
+
+    }
+
+
+    .result{
+
+        font-size:1.6rem;
+
+    }
+
+}
