@@ -46,11 +46,25 @@ header h1{
 
 .tabs{
 
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
     display:flex;
 
     gap:var(--space-2);
 
     margin-bottom:var(--space-5);
+
+    padding:
+
+        var(--space-2)
+
+        0;
+
+    background:var(--background);
 
     border-bottom:1px solid var(--border);
 
