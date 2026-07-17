@@ -63,7 +63,19 @@
 
 
 
-    /* ========= RADIUS ========= */
+   /* ========= SIZES ========= */
+
+   --container-width: 1400px;
+
+   --card-width: 720px;
+
+   --input-height: 44px;
+
+   --button-height: 44px;
+
+
+   
+   /* ========= RADIUS ========= */
 
     --radius-small:10px;
 
