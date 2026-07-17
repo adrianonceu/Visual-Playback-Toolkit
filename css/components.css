@@ -267,3 +267,47 @@
     display:none;
 
 }
+
+
+/* Center both horizontally and vertically */
+
+.center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+/* Center horizontally only */
+
+.center-x{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+/* Center vertically only */
+
+.center-y{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+/* Full width */
+
+.w-100{
+
+    width:100%;
+
+}
